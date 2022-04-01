@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.canvas {
+    flex: 1 1 auto;
+    display: grid;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    width: 960px;
+    height: 960px;
+}
+
+.canvas div {
+    background-color: white;
+}
